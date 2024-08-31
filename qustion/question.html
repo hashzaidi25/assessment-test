@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Assessment</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../styles/main.css">
+    </head>
+    <body>
+         <!-- HEADER -->
+         <header>
+            <nav>
+                <div class="logo">FIZZIELTS</div>
+            </nav>
+        </header>
+
+       <!-- SECTION QUESTION -->
+<section class="quest-sec">
+    <div class="container-3">
+        <div class="content-3">
+            <div class="title">
+                <div class="topic"><p>Current Affairs</p></div>
+                <div class="time">Time left : <span class="seconds">--</span></div>
+            </div>
+            <div class="question"><h2 class="quest">-Who is the richest man on earth?</h2></div>
+
+            <!-- Audio element for listening questions -->
+            <audio class="audio" controls style="display:none; margin-top:20px;"></audio>
+
+            <!-- Passage element for reading questions -->
+            <div class="passage" style="display:none; margin-top:20px; border:1px solid #ddd; padding:15px;"></div>
+
+            <div class="options">
+                <!-- Options will be dynamically generated here -->
+            </div>
+
+            <div class="btn-div ques">
+                <button class="prev"><a href="../result/result.html">End Assessment</a></button>
+                <p class="ques-left">1 of 10</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+       
+        
+        <script src="question.js" type="module" async defer></script>
+    </body>
+</html>
